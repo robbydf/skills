@@ -8,10 +8,10 @@ In Claude Code:
 
 ```
 /plugin marketplace add robbydf/skills
-/plugin install robbydf@skills
+/plugin install robbydf@robbydf
 ```
 
-Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update skills`.
+Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update robbydf`.
 
 Plugin skills are namespaced, so they appear as `robbydf:<name>` (e.g. `/robbydf:grill-me`).
 
