@@ -1,12 +1,12 @@
 {
-  "name": "personal-claude-skills",
+  "name": "skills",
   "owner": {
     "name": "robbydf"
   },
   "description": "Personal Claude Code skills, installable as a user-level plugin.",
   "plugins": [
     {
-      "name": "personal-skills",
+      "name": "skills",
       "source": "./",
       "description": "Grilling interviews, design alternatives, throwaway prototypes, and review loops. No per-project setup required.",
       "category": "productivity"
