@@ -11,7 +11,7 @@ In Claude Code:
 /plugin install robbydf@robbydf-plugins
 ```
 
-Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update robbydf-plugins`. (`robbydf/claude-plugins` is the one marketplace for all of my plugins; this repo's own marketplace still works too.)
+Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update robbydf-plugins`. (`robbydf/claude-plugins` is the one marketplace for all of my plugins.)
 
 Plugin skills are namespaced, so they appear as `robbydf:<name>` (e.g. `/robbydf:grill-me`).
 
