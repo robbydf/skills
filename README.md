@@ -7,11 +7,11 @@ My agent skills for Claude Code, packaged as a plugin so they're available in ev
 In Claude Code:
 
 ```
-/plugin marketplace add robbydf/skills
-/plugin install skills@skills
+/plugin marketplace add robbydf/claude-plugins
+/plugin install skills@robbydf-plugins
 ```
 
-Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update skills`.
+Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update robbydf-plugins`. (`robbydf/claude-plugins` is the one marketplace for all of my plugins; this repo's own marketplace still works too.)
 
 Plugin skills are namespaced, so they appear as `skills:<name>` (e.g. `/skills:grill-me`).
 
