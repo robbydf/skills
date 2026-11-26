@@ -8,18 +8,18 @@ In Claude Code:
 
 ```
 /plugin marketplace add robbydf/claude-plugins
-/plugin install skills@robbydf-plugins
+/plugin install robbydf@robbydf-plugins
 ```
 
 Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update robbydf-plugins`. (`robbydf/claude-plugins` is the one marketplace for all of my plugins; this repo's own marketplace still works too.)
 
-Plugin skills are namespaced, so they appear as `skills:<name>` (e.g. `/skills:grill-me`).
+Plugin skills are namespaced, so they appear as `robbydf:<name>` (e.g. `/robbydf:grill-me`).
 
 ## Skills
 
 | Skill | What it does |
 | --- | --- |
-| `grill-me` | Manual-only (`/skills:grill-me`): starts a grilling session. |
+| `grill-me` | Manual-only (`/robbydf:grill-me`): starts a grilling session. |
 | `grilling` | Interviews you relentlessly about a plan or idea, in rounds, with a recommended answer for each question, until nothing is left assumed. |
 | `design-alternatives` | "Design it twice": parallel sub-agents produce radically different designs for an interface, schema, architecture or workflow, then compares them and recommends one. |
 | `prototype` | Builds a throwaway prototype to answer one design question: a single-file HTML logic demo, or switchable UI variants. |
