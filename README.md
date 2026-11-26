@@ -1,4 +1,4 @@
-# personal-claude-skills
+# skills
 
 My agent skills for Claude Code, packaged as a plugin so they're available in every project at the user level. No per-project setup or initialization is needed.
 
@@ -7,19 +7,19 @@ My agent skills for Claude Code, packaged as a plugin so they're available in ev
 In Claude Code:
 
 ```
-/plugin marketplace add robbydf/personal-claude-skills
-/plugin install personal-skills@personal-claude-skills
+/plugin marketplace add robbydf/skills
+/plugin install skills@skills
 ```
 
-Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update personal-claude-skills`.
+Choose **user scope** when prompted (the default) so the skills load in every project. To pick up new versions later, run `/plugin marketplace update skills`.
 
-Plugin skills are namespaced, so they appear as `personal-skills:<name>` (e.g. `/personal-skills:grill-me`).
+Plugin skills are namespaced, so they appear as `skills:<name>` (e.g. `/skills:grill-me`).
 
 ## Skills
 
 | Skill | What it does |
 | --- | --- |
-| `grill-me` | Manual-only (`/personal-skills:grill-me`): starts a grilling session. |
+| `grill-me` | Manual-only (`/skills:grill-me`): starts a grilling session. |
 | `grilling` | Interviews you relentlessly about a plan or idea, in rounds, with a recommended answer for each question, until nothing is left assumed. |
 | `design-alternatives` | "Design it twice": parallel sub-agents produce radically different designs for an interface, schema, architecture or workflow, then compares them and recommends one. |
 | `prototype` | Builds a throwaway prototype to answer one design question: a single-file HTML logic demo, or switchable UI variants. |
