@@ -31,3 +31,7 @@ Plugin skills are namespaced, so they appear as `personal-skills:<name>` (e.g. `
 ## Without the plugin
 
 You can also symlink or copy any `skills/<name>` folder into `~/.claude/skills/`. Skills then use bare names (`/grill-me`).
+
+## License
+
+MIT, see [LICENSE](LICENSE). Adapted skills keep their original MIT notice in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
