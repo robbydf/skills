@@ -1,0 +1,11 @@
+{
+  "name": "personal-skills",
+  "version": "0.1.0",
+  "description": "Grilling interviews, design alternatives, throwaway prototypes, and review loops. No per-project setup required.",
+  "author": {
+    "name": "robbydf"
+  },
+  "repository": "https://github.com/robbydf/personal-claude-skills",
+  "license": "MIT",
+  "keywords": ["grilling", "design", "prototype", "review"]
+}
